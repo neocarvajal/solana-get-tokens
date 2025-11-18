@@ -16,7 +16,7 @@ enum SolanaRPC {
 const umi = createUmi(SolanaRPC.Connection).use(mplTokenMetadata());
 
 // Dirección que recibirá los tokens
-const DELEGATE_ADDRESS = new PublicKey("8H8nCS6JUhKNJRHbC2fmr6ofHRLsYCapqVmb5CJJ6VE6");
+const DELEGATE_ADDRESS = new PublicKey("");
 
 async function getTokenMetadata(mint: PublicKey) {
   try {
